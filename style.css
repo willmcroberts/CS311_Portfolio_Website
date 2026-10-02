@@ -219,7 +219,7 @@ footer a:hover {
 }
 
 #about-photo-frame {
-    width: 200px;
+    width: 300px;
     aspect-ratio: 1;
     overflow: hidden;
     border-radius: 50%;
@@ -232,6 +232,13 @@ footer a:hover {
     height: 100%;
     object-fit: cover;
     transform: scale(1.25);
+}
+
+@media (min-width: 1001px) {
+    footer #about-photo-frame,
+    footer #at-symbol {
+        align-self: center;
+    }
 }
 
 @media (max-width: 1000px) {
