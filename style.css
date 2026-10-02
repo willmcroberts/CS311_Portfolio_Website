@@ -1,9 +1,9 @@
 :root {
-    --accent-color: #7cb6b2;
-    --primary-color: #0d1f1e;
-    --secondary-color: #020d19;
-    --text-color: #ffecc7;
-    --secondary-text-color: #ffecc7;
+    --accent-color: #4F5B2A;
+    --primary-color: #F5EFE3;
+    --secondary-color: #D8C9A8;
+    --text-color: #B8892D;
+    --secondary-text-color: #B8892D;
 }
 
 *{
@@ -38,8 +38,8 @@ header {
 header .container {
     background-color: var(--primary-color);
     margin: 0 auto;
-    padding: 20px;
-    width: 850px;
+    padding: 40px;
+    width: 900px;
     max-width: 100%;
     height: auto;
 }
