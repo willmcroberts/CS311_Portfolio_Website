@@ -102,7 +102,7 @@ header .read-more:hover {
 }
 
 .skill-container {
-    width: 400px;
+    width: 350px;
     max-width: 100%;
     border: 10px solid var(--primary-color);
     border-top: none;
@@ -115,19 +115,9 @@ header .read-more:hover {
     text-transform: none;
 }
 
-.skill-container ul {
-    margin: 10px 0;
-    list-style: none;
-}
-
-.skill-container ul li {
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.skill-container ul li progress {
-    accent-color: var(--accent-color);
+.skill-container p {
+    padding: 20px;
+    line-height: 1.5;
 }
 
 #project-section {
