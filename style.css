@@ -80,6 +80,7 @@ header .read-more {
 
 header .read-more:hover {
     background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 #skill-section {
@@ -191,6 +192,7 @@ details .project-link {
 
 details .project-link:hover {
 background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 footer {
