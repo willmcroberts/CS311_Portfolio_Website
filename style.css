@@ -65,6 +65,14 @@ header p {
     color:var(--secondary-text-color)
 }
 
+header .header-actions {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 600px;
+}
+
 header .read-more {
     display: inline-block;
     background-color: var(--accent-color);
@@ -74,7 +82,6 @@ header .read-more {
     border-radius: 100px;
     padding: .5em 1.25em;
     text-decoration: none;
-    margin-bottom: 80px;
     transition: 200ms ease;
     cursor: pointer;
 }
@@ -235,6 +242,19 @@ footer a:hover {
     height: 100%;
     object-fit: cover;
     transform: scale(1.25);
+}
+
+#cardinal {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardinal-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 @media (min-width: 1001px) {
