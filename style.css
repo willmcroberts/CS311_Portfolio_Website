@@ -164,6 +164,7 @@ details h3 {
 }
 
 details .text-container {
+    margin: 20px;
     padding: 30px;
     padding-top: 0;
 }
