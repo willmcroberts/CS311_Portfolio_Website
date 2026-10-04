@@ -24,7 +24,7 @@ background-color: var(--primary-color);
 }
 
 header {
-    background-image: url(https://destinationmuncie.org/wp-content/uploads/2024/01/bsu_campus-scaled.jpg);
+    background-image: url("images/campus.jpg");
     background-size: cover;
     background-attachment: fixed;
     padding: 0 20px;
